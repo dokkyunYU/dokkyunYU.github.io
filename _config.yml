@@ -29,9 +29,25 @@ domain: dokkyunYU.github.io
 github_username:  dokkyunYU
 
 # Build settings
+
 theme: minima
+
+# theme: bulma-clean-theme
+# show_sidebar: true
+
 plugins:
   - jekyll-feed
+
+
+---
+excerpt_separator: <!--more-->
+---
+
+Excerpt with multiple paragraphs
+
+Here's another paragraph in the excerpt.
+<!--more-->
+Out-of-excerpt
 
 # Exclude from processing.
 # The following items will not be processed, by default.
