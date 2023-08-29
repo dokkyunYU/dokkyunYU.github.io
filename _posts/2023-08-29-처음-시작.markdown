@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "처음 시작했다."
+date:   2023-08-29 15:51:50 +0900
+categories: Jekyll GitHubPages
+---
+
+GitHub Pages를 처음으로 시작했다.
+
+[빠른 시작]을 참고해 만들었지만, [Jekyll]을 사용하는게 좋을 듯 하여 그렇게 바꾸었다.
+
+[Jekyll을 사용해 GitHubPage 만들기]
+
+[새로운 포스트 올리기]
+
+[로컬에서 테스트하기]
+
+[저장소의 어느 부분을 퍼블리싱 중인지 파악하기]
+
+[서브 폴더를 새 저장소로 옮기기]
+
+이정도를 참고하였고, 지금 모양은 단순하지만 이제부터 더 꾸며볼 생각이다.
+
+오늘은 이걸로 끝.
+
+
+[빠른 시작]: https://docs.github.com/ko/pages/quickstart
+
+[Jekyll]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+
+[Jekyll을 사용해 GitHubPage 만들기]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+
+[새로운 포스트 올리기]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites
+
+[로컬에서 테스트하기]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+
+[저장소의 어느 부분을 퍼블리싱 중인지 파악하기]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+[서브 폴더를 새 저장소로 옮기기]: https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository
