@@ -3,6 +3,7 @@ layout: post
 title:  "처음 시작했다."
 date:   2023-08-29 15:51:50 +0900
 categories: Jekyll GitHubPages
+tags: Jekyll First
 ---
 
 GitHub Pages를 처음으로 시작했다.
