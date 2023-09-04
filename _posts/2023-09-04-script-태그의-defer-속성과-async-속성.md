@@ -37,8 +37,8 @@ defer 속성과 async 속성은 둘 모두 이러한 문제를 해결할 수 있
 async 속성도 defer 속성처럼 일단 스크립트를 다운로드하면서 그 다운로드 중에도 html 파싱을 계속하지만, 스크립트의 다운로드가 완료되면 그 즉시 스크립트가 실행된다는 차이점이 있다.
  
 ```js
-<script src="https://..." defer></script>
-<script src="https://..." defer></script>
+<script src="https://..." async></script>
+<script src="https://..." async></script>
 // 페이지가 다 로드되지 않았어도 먼저 다운로드가 완료된 순서대로 스크립트가 실행된다.
 ```
 
