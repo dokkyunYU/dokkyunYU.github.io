@@ -8,6 +8,3 @@ Math.min()는 처음 Infinity값을 보유하고 있다가 주어진 숫자들 �
 console.log(Math.max()) // -Infinity
 console.log(Math.min()) //  Infinity
 ```
-
-
-[<= 뒤로](JSindex.md)

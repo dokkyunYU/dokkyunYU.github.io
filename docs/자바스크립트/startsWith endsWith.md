@@ -24,6 +24,3 @@ const str2 = "ing";
 console.log(str.endsWith(str2)) // true
 
 ```
-
-
-[<= 뒤로](JSindex.md)
