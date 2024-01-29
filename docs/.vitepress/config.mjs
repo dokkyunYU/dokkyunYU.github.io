@@ -70,6 +70,8 @@ export default defineConfig({
             { text: 'startsWith endsWith', link: '/자바스크립트/startsWith endsWith' },
             // 7
             { text: '객체의 요소', link: '/자바스크립트/객체의 요소' },
+            // 8
+            { text: '널 병합 연산자', link: '/자바스크립트/널 병합 연산자' },
           ]
         },
         {
