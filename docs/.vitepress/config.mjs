@@ -4,11 +4,35 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "VVlog",
   description: "something good",
+  head: [],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Javascript', link: '/자바스크립트/' }
+      {
+        text: 'Javascript',
+        // items: [
+        //   {
+        //     text: '기본개념', items: [
+        //       { text: 'rr', link: '/자바스크립트/' },
+        //       { text: 'rr', link: '/자바스크립트/' },
+        //     ],
+        //   },
+        //   {
+        //     text: '기본개념2', items: [
+        //       { text: 'rr', link: '/자바스크립트/' },
+        //       { text: 'rr', link: '/자바스크립트/' },
+        //     ],
+        //   },
+        // ]
+        link: '/자바스크립트/'
+      },
+      {
+        text: 'Algorithm',
+        items: [
+          { text: 'Programmers', link: "/알고리즘/프로그래머스/" }
+        ]
+      }
     ],
 
     sidebar: {
@@ -48,13 +72,18 @@ export default defineConfig({
             { text: '객체의 요소', link: '/자바스크립트/객체의 요소' },
           ]
         },
-        // {
-        //   text: 'JS',
-        //   items: [
-        //     { text: 'Markdown Examples', link: '/markdown-examples' },
-        //     { text: 'Runtime API Examples', link: '/api-examples' }
-        //   ]
-        // },
+        {
+          text: 'Algorithm',
+          items: [
+            {
+              text: 'Programmers',
+              items: [
+                { text: "목록", link: '/알고리즘/프로그래머스/' },
+                { text: "귤 고르기", link: '/알고리즘/프로그래머스/귤 고르기' },
+              ]
+            },
+          ]
+        },
       ],
       // '/guide/': [
       //   {
@@ -83,7 +112,20 @@ export default defineConfig({
     docFooter: {
       prev: '이전 페이지',
       next: '다음 페이지'
+    },
+
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+    siteTitle: 'VVlog',
+
+    search: {
+      provider: 'local'
     }
   },
-  // lastUpdated: true
+  lastUpdated: true
 })
