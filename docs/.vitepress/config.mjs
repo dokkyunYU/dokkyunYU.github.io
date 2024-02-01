@@ -82,8 +82,12 @@ export default defineConfig({
             {
               text: 'Programmers',
               items: [
+                // 1
                 { text: "목록", link: '/알고리즘/프로그래머스/' },
+                // 2
                 { text: "귤 고르기", link: '/알고리즘/프로그래머스/귤 고르기' },
+                // 3
+                { text: "소인수분해", link: '/알고리즘/프로그래머스/소인수분해' },
               ]
             },
           ]
